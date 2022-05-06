@@ -26,7 +26,7 @@ header{
 .hero{
     height: 100vh;
     background-color: burlywood;
-    background-image: url(/images/veronica-cote-thesis-forest-environment.jpg);
+    background-image: url(../images/veronica-cote-thesis-forest-environment.jpg);
     background-position: center;
     background-size: cover;
     background-blend-mode: multiply;
