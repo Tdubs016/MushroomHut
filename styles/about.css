@@ -1,0 +1,96 @@
+html{
+    background-image: url(/images/alexandra-petruk-mushroomcave-s2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+header{
+    background-image: linear-gradient(to right,  #D4AF37, #C58917);
+    border-bottom: 4px ridge black;
+    
+    
+}
+h1 {
+    font-size: 250%;
+    flex-grow: 1;
+    outline: none;
+    color: wheat;
+}
+h2{
+    color: black;
+}
+p{
+    color: wheat;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    background-color:#C58917;
+    
+  }
+  
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #C58917;
+    color: wheat;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: wheat;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  footer p{
+      color: white;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

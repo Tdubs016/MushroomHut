@@ -4,26 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home | MushroomHut</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <header>
-        <h1>MushroomHut</h1>
-        <h2>under contruction</h2>
-    </header>
+    <section class="hero">
+        <header>
+            <img class="logoimage" src="/images/logo.png" alt="Homepage">
+            <nav>
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item"><a href="discord.html">Discord</a></div>
+                <div class="nav-item"><a href="minecraft.html">Minecraft</a></div>
+                <div class="nav-item"><a href="#">about</a></div>
+            </nav>
+        </header>
 
-    <main>
-        <p>The website I want to create is based on me and my friends discord sever. So the Home page would be about our community. Then another page talking about our mincraft server. Another page with information about some of our streams and personal websites/jobs this one is subject to change. Then a about page about each of the creators of our community. </p>
-        <ul>
-            <li>Home</li>
-            <li>Streams</li>
-            <li>Stores</li>
-            <li>About</li>
-        </ul>
-    </main>
+        <div class="title-text">
+            <p>Welcome to the community</p>
+            <h1>MushroomHut</h1>
+            <p>Come have so fun</p>
+        </div>
+    </section>
 
-    <footer>
+    <div class="sales-points">
+        <div class="sales-point">
+            <h3>What are we</h3>
+            <p>We are a small communtiy of gamers, artists, and everyday people. That come together to have a safe space for anyone and everyone to join and feel conmfotbale.</p>
+        </div>
+        <div class="sales-point">
+            <h3>Our Goal</h3>
+            <p>The goal we have is to create a large community of people of people who come from any background. The more people we have that are differnt the more this community can grow and flourish. </p>
+        </div>
+        <div class="sales-point">
+            <h3>What We Offer So Far</h3>
+            <p>We offer a discord server were anyone is free to chat, post art you make, post food you make, and even just post your pets if you want. We also have our own mincraft sever that anyone is welcome to join if they want. </p>
+        </div>
+        <div class="sales-point">
+            <h3>Creator: Charlie Bennett</h3>
+            <img src="/images/cbenn.jpg" alt="Creator">
+            
+        </div>
+        <div class="sales-point">
+            <h3>Website Owner: Tyler Williams</h3>
+            <img src="/images/twill.jpg" alt="owner">
+            
+        </div>
+    </div>
 
-    </footer>
+   
+
+    <script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+  
+  
+      <footer>
+        <p>&copy; <span id="copyright"></span> Tyler Williams</p>
+      </footer>
+
 </body>
 </html>

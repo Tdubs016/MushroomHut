@@ -1,0 +1,114 @@
+html{
+    background-image: url(/images/afedb05ee81c2b38da95eac753285350.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+header{
+    background-image: linear-gradient(to right, teal , darkslateblue);
+    border-bottom: 4px ridge black;
+    
+    
+}
+h1 {
+    font-size: 250%;
+    flex-grow: 1;
+    outline: none;
+    color: darkslateblue;
+}
+section{
+    margin-top: 2.5em;
+   
+}
+section h2{
+    text-align: center;
+    color: teal;
+    font-size: 200%;
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  .mySlides img{
+    border: 3px ridge teal;
+    border-radius: 30px;
+    max-width: 1000px;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .cta{
+   
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.cta-contents{
+    width: 35vw;
+    height: 15vw;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    outline: 3px solid teal;
+}
+.cta-contents p{
+    text-align: center;
+    color: teal;
+}
+.btn{
+    background-color: teal;
+    padding: 5px 20px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 1px grey;
+    text-decoration: none;
+}
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord | MushroomHut</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/discord.css">
+</head>
+<body>
+    
+        <header>
+            <img class="logoimage" src="images/logo2.png" alt="Homepage">
+            <h1>MushroomHut | Discord</h1>
+            <nav>
+                <div class="nav-item"><a href="index.html">Home</a></div>
+                <div class="nav-item"><a href="discord.html">Discord</a></div>
+                <div class="nav-item"><a href="minecraft.html">Minecraft</a></div>
+                <div class="nav-item"><a href="about.html">About</a></div>
+            </nav>
+        </header>
+
+        <section>
+
+            <h2>Some pictures from our Discord</h2>
+            <!-- Slideshow container -->
+    <div class="slideshow-container">
+    
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="images/discord1.jpg" >
+        </div>
+        <div class="mySlides fade">
+          <img src="images/discord2.jpg" >
+        </div>
+        <div class="mySlides fade">
+          <img src="images/discord3.jpg" >
+        </div>
+        <div class="mySlides fade">
+            <img src="images/discord4.jpg" >
+        </div>
+      
+        
+      </div>
+      
+      
+      
+      
+        </section>
+
+        
+        <div class="cta">
+            <div class="cta-contents">
+                <p>Click to Join our discord</p>
+                <a href="https://discord.gg/ZA8PnCYarW" class="btn">join</a>
+                </div>
+        </div>
+        
+       
+
+
+        <script>
+          window.onload = function() {
+              var d = new Date();
+              document.getElementById("copyright").innerHTML = d.getFullYear();
+          }
+      </script>
+    
+    
+        <footer>
+          <p>&copy; <span id="copyright"></span> Tyler Williams</p>
+        </footer>
+    <script>
+        let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+    </script>
+
+</body>
+</html>

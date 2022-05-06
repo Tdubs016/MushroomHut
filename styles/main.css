@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 110%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logoimage{
+    max-width: 80px;
+    width: 100%;
+    margin: 1em;
+}
+
+.hero{
+    height: 100vh;
+    background-color: burlywood;
+    background-image: url(/images/veronica-cote-thesis-forest-environment.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+nav{
+    display: flex;
+
+}
+nav div{
+    margin: 0 1em;
+    font-size: 110%;
+    font-weight: 700;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:link, nav a:visted{
+    text-decoration: none;
+}
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+    color: firebrick;
+}
+.title-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:  wheat;
+    margin: 45vh 0 0 0;
+    font-size: 100%;
+}
+.title-text p{
+    font-size: 150%;
+}
+h1{
+    font-size: 400%;
+    letter-spacing: 25px;
+    outline: 3px solid firebrick;
+    color: firebrick;
+}
+.sales-points{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #013220;
+    
+}
+.sales-point{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    color: tan;
+    border: 3px ridge black;
+}
+.sales-point h3{
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+
+}
+.sales-point p{
+    font-size: 100%;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.sales-point img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+footer{
+    background-color: black;
+    padding: 40px 0;
+    color: white;
+    position:relative ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
